@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 16px;
+    background: linear-gradient(#FBBF24, #FDE68A);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 500px;
+    background-color: #5B21B6;
+    margin: 100px auto;
+    padding: 4rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.scores .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #F9FAFB;
+}
+
+.scores .team h3 {
+    font-family: 'Ikhsani Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.scores .team .score {
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #F94F6D;
+    background-color: #1F2937;
+    width: 7.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.scores .team .controls {
+    display: flex;
+    gap: .5rem;
+}
+
+.scores .team .controls button {
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 1.3rem;
+    color: #BAE6FD;
+    padding: 5px 10px;
+    background-color: #1F2937;
+    border: 1px solid #BAE6FD;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.scores .team .controls button:hover {
+    color: #F9FAFB;
+    border: 1px solid #F9FAFB;
+}
+
+
+.winner {
+    font-family: 'Ikhsani Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    padding: 20px;;
+    border: 1px solid #BAE6FD;
+    border-radius: 5px;
+    color: #F9FAFB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winner .winner-team {
+    font-family: 'DS-Digital', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #34D399;
+    background-color: #1F2937;
+    width: 10rem;
+    border-radius: 5px;
+    text-align: center;
+}
